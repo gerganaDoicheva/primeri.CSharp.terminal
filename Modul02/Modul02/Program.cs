@@ -18,8 +18,8 @@ namespace Modul02
 
             // subirane na 4isla
 
-            a = 55;
-            b = 10;
+            a = 10;
+            b = 5;
             sum = a + b;
             
             // pisane v konzolata
@@ -30,7 +30,33 @@ namespace Modul02
             Console.Write (" = ");
             Console.WriteLine(sum);
 
+            //dopulnitelni operatori
 
+            Console.WriteLine("\nIzpolzvane na +=");
+            a += b;
+            Console.WriteLine(a);
+
+            Console.WriteLine("\nIzpolzvane na -=");
+            a -= b;
+            Console.WriteLine(a);
+            Console.WriteLine("\nIzpolzvane na *=");
+            a *= b;
+            Console.WriteLine(a);
+            Console.WriteLine("\nIzpolzvane na ++");
+            a++;
+            Console.WriteLine(a);
+
+            Console.WriteLine("\nIzpolzvane na --");
+            a--;
+            Console.WriteLine(a);
+
+
+            Console.WriteLine ("Standartno delene:" + (7 / 3).ToString());   //  -> 2 (7/3 = 2,3333)
+            Console.WriteLine("Ostatuk ot delene:" + (7 % 3).ToString());    //  -> 1 (1/3 = 0,3333)
+
+        
+        
+        
         }
     }
 }
